@@ -28,6 +28,7 @@ export const lists = {
       finishBy: timestamp(),
     },
   }),
+
   Person: list({
     fields: {
       name: text({ validation: { isRequired: true } }),
